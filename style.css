@@ -66,6 +66,19 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
+/* Background Styles */
+
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
+	-webkit-background-size: auto!important;
+	-moz-background-size: auto!important;
+	-o-background-size: auto!important;
+	background-size: auto!important;
+}
+.bg-repeat{
+	background:repeat;
+}
+
+
 /* Background Effects */
 
 .b-parallax{
@@ -175,6 +188,16 @@ a:hover{text-decoration: none; cursor:pointer;}
 	font-family: Cinzel;
 	font-size: 6em;
 	line-height: 80px;
+}
+#bloc-2 h3{
+	font-family: "Source Sans Pro";
+}
+#bloc-2 p{
+	font-family: helvetica;
+}
+#bloc-2 h3{
+	font-weight: 400;
+	font-family: "Source Sans Pro";
 }
 
 /* = NavBar
@@ -503,6 +526,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Cinzel";
 	font-weight:normal;
 	text-shadow:0px 0px 8px #3B2432;
+}
+.new{
+	color:#1F77FF!important;
 }
 
 /* = Colour
