@@ -191,6 +191,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 #bloc-2 h3{
 	font-family: "Source Sans Pro";
+	line-height: 24px;
 }
 #bloc-2 p{
 	font-family: helvetica;
@@ -198,6 +199,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 #bloc-2 h3{
 	font-weight: 400;
 	font-family: "Source Sans Pro";
+	line-height: 24px;
 }
 
 /* = NavBar
@@ -355,10 +357,6 @@ nav .caret{
 	margin-top:10px;
 	margin-bottom:20px;
 }
-.mg-lg{
-	margin-top:10px;
-	margin-bottom:40px;
-}
 img.mg-sm,img.mg-md,img.mg-lg{
 	margin-top: 0;
 }
@@ -392,6 +390,11 @@ button{
 }
 
 
+/* = Icons
+-------------------------------------------------------------- */
+.icon-md{
+	font-size:30px!important;
+}
 
 
 
@@ -530,6 +533,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .new{
 	color:#1F77FF!important;
 }
+.icon-margin{
+	margin:-6px -6px -6px -6px;
+}
+.extraspace{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	height:49px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -542,8 +553,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-white{
 	background-color:#ffffff;
 }
-.bgc-pastel-gray{
-	background-color:#CCCCCC;
+.bgc-anti-flash-white{
+	background-color:#F3F3F3;
 }
 .bgc-onyx{
 	background-color:#160E0F;
@@ -554,10 +565,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-white{
 	color:#ffffff!important;
 }
-.tc-outer-space{
-	color:#47454B!important;
-	!important}.tc-mordant-red-19{
-	color:#B60000!important;
+.tc-lust{
+	color:#EF2A1C!important;
 }
 
 /* Link colour styles */
@@ -567,6 +576,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .ltc-white:hover{
 	color:#ffffff!important;
+}
+
+/* Icon colour styles */
+
+.icon-lapis-lazuli{
+	color:#3B5998!important;
+	border-color:#3B5998!important;
+}
+.icon-lust{
+	color:#EF2A1C!important;
+	border-color:#EF2A1C!important;
 }
 
 /* Bloc image backgrounds */
@@ -834,6 +854,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .blocs-mobile-signup-text{
 	text-align:center;
+}
+.extraspace{
+	padding:4px 4px 4px 4px;
 }
  #bloc-1 h1{
 	font-size: 4em;
